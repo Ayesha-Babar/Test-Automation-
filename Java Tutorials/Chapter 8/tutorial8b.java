@@ -1,6 +1,6 @@
 import static java.lang.Character.isUpperCase;
 
-public class tutorial8a
+public class tutorial8b
 {
     // datatypes
     // write a method to count the number of words in a string

@@ -1,0 +1,15 @@
+Learned about :
+Test XML files 
+It has test suites, classes and methods arranged in a specific order.
+
+<suite>
+<test name='Search for a product'
+<classes>
+<class name="url"
+<methods>
+<include name= "search product/">
+</methods>
+</class>
+</classes>
+</test>
+</suite>

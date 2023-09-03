@@ -1,9 +1,7 @@
-package TestNg;
-
+import org.testng.Assert;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
 
-public class demoAnnotations {
+public class HardAsserts {
     //arranged in execution order
     @BeforeSuite
     public void beforeSuite() {
@@ -25,6 +23,7 @@ public class demoAnnotations {
         System.out.println("before test method" + " sign in");
     }
 
+
     @Test(priority = 1)
     public void publicSearchCustomer() {
         System.out.println("Search for customer");
@@ -35,22 +34,18 @@ public class demoAnnotations {
         System.out.println("Search for product  ");
     }
 
-    SoftAssert softassert = new SoftAssert();
-
+    // HARD ASSERTS
     @Test
-    public void testHomePageVerification() {
-        //hard asserts : if one fails, compiler moves to the next annotation without executing the subsequent assertions.
-        softassert.assertEquals(true, true, "the welcome link isnt correct on the home page");
-        System.out.println("verify welcome link");
+    public void HardAsserts()
+    {
+        Assert.assertEquals(true,true,"both are equal");
+        Assert.assertFalse(false,"this is false");
 
-        softassert.assertFalse(false, "the admin tab isnt displayed on the homepage");
-        System.out.println("verify the admin tab");
-
-        softassert.assertTrue(true, "the dashboard isnt correct on the homepage");
-        System.out.println("verify dashboard");
-
-        softassert.assertAll();
     }
+
+
+
+
 
 
     @AfterMethod
@@ -76,3 +71,4 @@ public class demoAnnotations {
     }
 
 }
+

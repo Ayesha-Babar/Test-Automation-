@@ -3,15 +3,16 @@
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class dataProvider {
-    @Test(dataProvider = "loginData")
+public class dataProvider
+{
+    @Test(dataProvider = "login-provider")
     public void login(String email, String password, boolean success) {
         System.out.println("Log in credentials: "+ "/n"+
                 "email= "+email+"/n"+
                 "successful log in= "+success+"/n");
     }
 
-    @DataProvider
+    @DataProvider(name ="login-provider")
     public Object[][] loginData() {
         Object[][] data = new Object[3][3];
 

@@ -1,0 +1,29 @@
+XPaths
+
+-/html/body
+
+-//tagname 
+//input
+
+-// for tags, / for direct children
+//ul/li/a
+
+-//* all elements
+//div//* all elements with div tag
+
+-//li[@class='zcm-link']
+
+-//img[@width<20][@height<20]
+/img[@width<20 and @height<20]
+
+-//input[@name='q' or ID='fhg']
+
+-for lengthy class names
+//div[contains(@class,'result_snippet')]
+
+-starts with function
+//div[starts-with[@class,'result'] -> checks for elements with classnames which begin with result.
+
+-//a[not(contains(@class,'header') 
+can stack functions using round brackets
+-//a[not(starts-with(@class,'header') 

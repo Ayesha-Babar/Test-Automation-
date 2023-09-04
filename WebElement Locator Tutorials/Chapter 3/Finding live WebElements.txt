@@ -1,0 +1,5 @@
+locators in preferential order:
+IDs
+Names
+Classes  (.classname can be used to elements)
+Xpaths

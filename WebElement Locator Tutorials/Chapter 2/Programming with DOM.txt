@@ -1,6 +1,0 @@
-Learned about :
--DOM is an interface for HTML and XML files.
--Element is an object representing a live rendered HTML element on the page.
--Locator is an object that points to a object on the page.
--Selector is a query string that denotes how to locate the element.
--A locator uses a selector to find an element on the page.

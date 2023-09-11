@@ -1,6 +1,0 @@
-Learned about :
-webpages
-HTML
-JavaScript
-CSS
-WebBrowsers

@@ -1,5 +1,0 @@
-Learned about:
-Selenium Client and WebDriver Language Bindings
-JSON wire protocol over HTTP
-Browser Drivers like ChromeDriver, GeckoDriver,SafariDriver,OperaDriver,EdgeDriver
-Web Browsers like chrome,firefox,safari,opera,edge

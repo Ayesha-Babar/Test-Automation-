@@ -1,2 +1,0 @@
-Added all the dependencies to set up selenium4 in intellij in the pom.xml file.
-

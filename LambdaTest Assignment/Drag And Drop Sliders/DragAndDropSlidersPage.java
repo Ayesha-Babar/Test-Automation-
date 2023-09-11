@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class SliderDemoPage
+public class DragAndDropSlidersPage
 {
     private WebDriver driver;
     private By slider= By.xpath("//input[@type='range']");
@@ -22,7 +22,7 @@ public class SliderDemoPage
     List<WebElement>sliderlist= (List<WebElement>)driver.findElements(slider);
 
 
-    public SliderDemoPage(WebDriver driver)
+    public DragAndDropSlidersPage(WebDriver driver)
     {
         this.driver=driver;
     }

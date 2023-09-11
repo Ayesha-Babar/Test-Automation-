@@ -30,6 +30,8 @@ public class InputFormSubmitPage
    private By ZipCodefield=By.xpath("//input[@id='inputZip']");
    private By DropdownCountry=By.xpath("//select[@name='country']");
    private By submitButton=By.xpath("//button[@type='submit']");
+   private By InputFormValidationsHeader=By.xpath("//h2[contains(text(),'Input form validations')]");
+   private By InputformvalidationsMessage=By.xpath("//p[contains(text(),'Thanks for contacting us')]");
 
 
    public void enterName(String name)
@@ -77,16 +79,58 @@ public class InputFormSubmitPage
     {
         return new Select(driver.findElement(DropdownCountry));
     }
-    public void SelectfromDropdownCountry(String countryname)
-    {
 
-     finddropdown().selectByVisibleText(countryname);
+        /*Select dropdown= new Select(driver.findElement((DropdownCountry)));
+         driver.findElement(DropdownCountry).click();
+         dropdown.selectByVisibleText(countryname);*/
+       /* public void SelectfromDropdown(String countryName)
+        {
+        WebElement dropdownElement = driver.findElement(DropdownCountry);
+        dropdownElement.click();
+        Select dropdown = new Select(dropdownElement);
+        dropdown.selectByVisibleText(countryName);
+    }*/
+
+    public void selectFromDropdown(String countryName) {
+        WebElement dropdownElement = driver.findElement(DropdownCountry);
+
+        // Click the dropdown to open it (if clicking is necessary)
+        dropdownElement.click();
+
+        // Use the Select class to select an option by visible text
+        Select dropdown = new Select(dropdownElement);
+        dropdown.selectByVisibleText(countryName);
     }
 
     public List<String> getselectedOption()
     {
         List<WebElement>selectedOptions=finddropdown().getAllSelectedOptions();
         return selectedOptions.stream().map(e->e.getText()).collect(Collectors.toList());
+    }
+
+    public InputFormValidationPage ClickSubmitButton()
+    {
+        driver.findElement(submitButton).click();
+        return new InputFormValidationPage(driver);
+    }
+
+    public class InputFormValidationPage
+    {
+        WebDriver driver;
+        public InputFormValidationPage(WebDriver driver)
+        {
+            this.driver=driver;
+        }
+
+        public boolean headerDisplay()
+        {
+              return driver.findElement(InputFormValidationsHeader).isDisplayed();
+        }
+
+        public boolean messagedDisplay()
+        {
+            return driver.findElement(InputformvalidationsMessage).isDisplayed();
+        }
     }
 
 

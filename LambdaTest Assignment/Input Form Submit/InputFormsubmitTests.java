@@ -4,6 +4,10 @@ import Pages.InputFormSubmitPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+
 public class InputFormsubmitTests extends BaseTest
 {
     @Test
@@ -20,10 +24,14 @@ public class InputFormsubmitTests extends BaseTest
         inputform.enterZipCode("44000");
         inputform.enterWebsite("abc.com");
         inputform.enterPassword("password");
-        inputform.finddropdown();
-        inputform.SelectfromDropdownCountry("Pakistan");
+       // inputform.finddropdown();
+        inputform.selectFromDropdown("Afghanistan");
+        inputform.ClickSubmitButton();
+        InputFormSubmitPage.InputFormValidationPage page = inputform.ClickSubmitButton();
 
-        Assert.assertTrue(inputform.getselectedOption().contains("Pakistan"));
+
+        assertTrue(page.headerDisplay());
+        assertTrue(page.messagedDisplay());
     }
 
 

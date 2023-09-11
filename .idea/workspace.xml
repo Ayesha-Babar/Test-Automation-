@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9371cd17-7b5a-4185-be03-d06bec485875" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 1/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 1/tutorial1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Assignment/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Assignment/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Assignment/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Assignment/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 10/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Assignment/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Assignment/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Assignment/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Assignment/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 11/ShapeTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 12/Assignment/PopQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 12/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 12/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 13/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 13/ExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 13/MultipleExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 13/ThrowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 14/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 14/CoinTossGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 14/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 2/tutorial2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 3/tutorial3b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 3/tutorial3c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 3/tutorial3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 3/tutorial3e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 3/tutorial3f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 4/tutorial4a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 4/tutorial4b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 4/tutorial4c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 4/tutorial4d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 5/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 5/tutorial5a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 5/tutorial5b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 6/HomeAreaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 6/HomeAreaCalculatorRedo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 6/month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 6/rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 7/tutorial7a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 8/tutorial8a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 8/tutorial8b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Assignment/BirthdayCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Assignment/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Assignment/TasteTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Assignment/WeddingCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/inheritanceTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Tutorials/Chapter 9/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 1/Setup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 10/DisabledEnabledTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 11/RepeatingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 12/Tags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 13/AssertionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 14/Hamcrest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 15/RunningTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 16/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 17/Misc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 17/MyAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 18/Migrating from Junit 4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 2/FirstTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 3/LifecycleMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 4/ParameterizedTestsValueSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 5/ParameterizedTestCsvSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 6/ParameterizedTestsCsvFileSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 6/ShoppingList.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 6/ShoppingList2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 6/ShoppingList3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 7/ParamProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 7/ParameterizedTestsMethodSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 8/OrderedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 8/TestRunOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit 5 Tutorials/Chapter 9/Assumptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 1/Setup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 1/baseclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 2/W3C WebDriver Protocol.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 3/relativeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 4/WindowAndTabManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 5/getRectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 6/Screenshots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 7/ConsoleLogsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium-4 Tutorials/Chapter 7/GeoLocationClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/HoverPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/JavascriptAlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/KeyPressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/SecureAreaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Pages/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/AlertTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/HorizontalSliderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/HoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/KeypressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/logintests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 1/Intro To TestNG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 2/Installing TestNG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 3/demoAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 4/Testing XML files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 5/PriorityAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 6/HardAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 6/SoftAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 6/TestNG assertions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 7/dependsOnGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 7/dependsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 8/CrossBrowserTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG Tutorials/Chapter 8/dataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 1/WebPages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 2/Programming with DOM.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 3/Finding live WebElements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 4/CSS selectors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 5/XPaths.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 6/Advanced XPaths.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 7/Picking the right locator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebElement Locator Tutorials/Chapter 8/SimpleWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Pages/CheckboxDemoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Pages/Homepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Pages/InputFormSubmitPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Pages/SimpleFormDemoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Pages/SliderDemoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebdriver Tutorials/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Tests/InputFormsubmitTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Tests/SimpleFormDemoPageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaTest Assignment/Tests/newtest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2VF40ntVJvPAzWgZF1CA2o368qI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Emumba/courses"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="WebElement Locator Tutorials" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="WebElement Locator Tutorials" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9371cd17-7b5a-4185-be03-d06bec485875" name="Changes" comment="" />
+      <created>1694418273328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694418273328</updated>
+    </task>
+    <servers />
+  </component>
+</project>

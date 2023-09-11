@@ -1,0 +1,5 @@
+Some of the annotations are different in JUnit 4 and JUnit5.
+JUnit 4 ------------------------------> JUnit 5
+@BeforeClass, @Before-----------------> @AfterAll, @AfterEach
+@Ignore------------------------------->@Disabled
+@Category----------------------------->Tag  

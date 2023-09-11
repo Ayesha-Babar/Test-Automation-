@@ -1,0 +1,28 @@
+CSS Selectors
+-head.classname can be used to locate all the elements with the same class name
+ div.results
+
+-#idname can be used.
+
+-parent child relationship to locate elements
+div.cw > div.results
+
+-ordered list,unordered lists
+ ol>li,ul>li
+
+-All elements with style attribute
+[style]
+
+-All elements with style and <div>
+div[style]
+
+-head[link] can be used to locate links
+ eg a[data-zci-link='images']
+
+-pseudo selector 
+class name= result result--more
+div.result:not(.result--more)
+excludes elements with class name with 'result--more'
+
+-nth element
+div.result:nth-child(3)

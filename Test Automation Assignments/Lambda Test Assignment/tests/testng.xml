@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All test cases">
+    <test name="Cross browser Testing">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="tests.CrossBrowserTesting"></class>
+        </classes>
+    </test>
+    <test name="Regression tests">   <!-- The following test classes have been categorized on the basis of the type of testing they have employed -->
+        <classes>
+           <class name="tests.AjaxFormTest"></class>
+        </classes>
+    </test>
+
+        <test name="Sanity and Smoke tests">
+              <classes>
+                  <class name="tests.BootstrapAlertTest"></class>
+                  <class name="tests.AlertsTest"></class>
+                  <class name="tests.BootstrapDatePickerTest"></class>
+                  <class name="tests.BootstrapModalTest"></class>
+                  <class name="tests.BootStrapProgressBarTest"></class>
+                  <class name="tests.CheckboxTest"></class>
+                  <class name="tests.ContextMenuTest"></class>
+                  <class name="tests.DownloadFileTest"></class>
+                  <class name="tests.DragAndDropTest"></class>
+                  <class name="tests.HoverTest"></class>
+                  <class name="tests.InputFormsubmitTests"></class>
+                  <class name="tests.JQueryDownloadProgressBarTest"></class>
+                  <class name="tests.KeyPressTest"></class>
+                  <class name="tests.ProgressBarModalTest"></class>
+                  <class name="tests.RadioButtonTest"></class>
+                  <class name="tests.SimpleFormDemoPageTests"></class>
+                  <class name="tests.TableFiltertest"></class>
+                  <class name="tests.TablePaginationTest"></class>
+              </classes>
+        </test>
+        <test name="Smoke Tests">
+            <classes>
+                <class name="tests.BootstrapListTest"></class>
+                <class name="tests.DropdownTest"></class>
+                <class name="tests.DynamicDataLoadingTest"></class>
+                <class name="tests.JQueryDatePickerTest"></class>
+                <class name="tests.JQueryDropdownTest"></class>
+                <class name="tests.RedirectionTest"></class>
+                <class name="tests.ShadowDOMTest"></class>
+                <class name="tests.TableSortAndSearchTest"></class>
+                <class name="tests.VirtualDOMTest"></class>
+
+            </classes>
+        </test>
+        <test name="Sanity test">
+            <classes>
+                <class name="tests.JQueryListBoxTest"></class>
+            </classes>
+        </test>
+        <test name="Smoke and Regression test">
+            <classes>
+                <class name="tests.TableDataSearchTest"></class>
+            </classes>
+        </test>
+
+
+</suite>
+

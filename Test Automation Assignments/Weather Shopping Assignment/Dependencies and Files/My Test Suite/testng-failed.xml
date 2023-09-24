@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity and Smoke tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.MoisturizerTest">
+        <methods>
+          <include name="testAlmond"/>
+          <include name="testAloe"/>
+        </methods>
+      </class> <!-- tests.MoisturizerTest -->
+      <class name="tests.HomeTest">
+        <methods>
+          <include name="testHomepageSunscreenLink"/>
+          <include name="testHomepageMoisturizerLink"/>
+        </methods>
+      </class> <!-- tests.HomeTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.PaymentSuccessTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.PaymentSuccessTest -->
+      <class name="tests.SunscreenTest">
+        <methods>
+          <include name="testSPF30"/>
+        </methods>
+      </class> <!-- tests.SunscreenTest -->
+    </classes>
+  </test> <!-- Sanity and Smoke tests(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->

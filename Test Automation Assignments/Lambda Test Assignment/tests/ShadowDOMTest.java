@@ -11,7 +11,7 @@ public class ShadowDOMTest extends BaseTest
     public void test()
     {
         ShadowDOM page= homepage1.clickShadowDom();
-        page.shadowText();
+       page.shadowText();
 
     }
 

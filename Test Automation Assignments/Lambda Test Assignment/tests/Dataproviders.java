@@ -163,6 +163,25 @@ public class Dataproviders {
                 };
     }
 
+    @DataProvider(name="JQuery Date picker")
+    public Object[][] jquery()
+    {
+        return new Object[][]
+                {
+                        {"10/15/2023"}
+                };
+    }
+
+    @DataProvider(name="JQuery Date picker")
+    public Object[][] jquery2()
+    {
+        return new Object[][]
+                {
+                        {"26/15/2023"}
+                };
+    }
+
+
 
 
 

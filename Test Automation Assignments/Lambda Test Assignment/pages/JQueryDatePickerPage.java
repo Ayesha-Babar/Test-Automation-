@@ -1,7 +1,9 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class JQueryDatePickerPage
 {
@@ -23,9 +25,13 @@ public class JQueryDatePickerPage
         driver.findElement(FromField).click();
     }
 
-    public void Select_FromDate()
+    public void Select_FromDate(String date)
     {
-        driver.findElement(DesiredDateFrom).click();
+        WebElement from=driver.findElement(FromField);
+
+        String script = "arguments[0].setAttribute('value', '" + date + "')";
+        ((JavascriptExecutor) driver).executeScript(script, from);
+
     }
 
     public void clickTo()
@@ -33,9 +39,12 @@ public class JQueryDatePickerPage
         driver.findElement(ToField).click();
     }
 
-    public void Select_ToDate()
+    public void Select_ToDate(String date)
     {
-        driver.findElement(DesiredDateTo).click();
+        WebElement To= driver.findElement(ToField);
+        String script = "arguments[0].setAttribute('value', '" + date + "')";
+        ((JavascriptExecutor) driver).executeScript(script, To);
+
     }
 
     public String GetText_From()

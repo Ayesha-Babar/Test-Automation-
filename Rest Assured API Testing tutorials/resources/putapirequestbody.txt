@@ -1,0 +1,11 @@
+{
+    "firstname":"smith",
+    "lastname":"jones",
+    "totalprice":1000,
+    "depositpaid":true,
+    "bookingdates": {
+        "checkin":"2018-02-01",
+        "checkout":"2019-02-01"
+    },
+    "additionalneeds":"super bowls"
+}

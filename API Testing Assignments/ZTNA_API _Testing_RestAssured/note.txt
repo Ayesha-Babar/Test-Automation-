@@ -1,0 +1,2 @@
+The test folder contains individual folders for each flow, the END_TO_END_TEST file has code for all flows combined.
+The resources folder contains the request bodies of various requests.

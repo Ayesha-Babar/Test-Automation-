@@ -1,0 +1,7 @@
+ {
+        "name": "network demo 2",
+        "protocol": "UDP",
+        "ip_address": "192.36.35.2",
+        "ports": "2"
+    }
+

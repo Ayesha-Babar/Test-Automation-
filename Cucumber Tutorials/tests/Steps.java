@@ -64,9 +64,7 @@ public class Steps extends BaseUtil
         driver.quit();
     }
 
-    @When("I enter valid <username> and <password> with <userFullName>")
-    public void iEnterValidUsernameAndPasswordWithUserFullName() {
-    }
+  
 }
 
 
